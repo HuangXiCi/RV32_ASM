@@ -91,7 +91,7 @@ int sumSquare(int x, int y)
 | x18-27   | s2-11    | 保存寄存器          | Callee |
 | x28-31   | t3-6     | 临时寄存器          | Caller |
 
-![image-20230316111110244](C:\Users\huangxici\AppData\Roaming\Typora\typora-user-images\image-20230316111110244.png)
+![image-20230316111110244](image-0.png)
 
 依次保存了：原返回地址值，参数寄存器值，保存寄存器值，局部变量值
 
@@ -133,4 +133,4 @@ So where is the stack in memory?
 
 栈区从高地址0xbfff_fff0开始向低地址扩展，需要以每16-byte为界进行对齐
 
-![image-20230316113842006](C:\Users\huangxici\AppData\Roaming\Typora\typora-user-images\image-20230316113842006.png)
+![image-20230316113842006](image-1.png)
